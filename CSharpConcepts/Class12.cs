@@ -8,22 +8,16 @@ namespace CSharpConcepts
 {
     internal class Class12
     {
-        static void Main(string[] args)
+        static void Main12(string[] args)
         {
-            static void Main(String[] args)
+            int[] num = { 10, 20, 30, 40, 50, 60, 70, 80 };
+            for(int i=0;i<=num.Length-1;i++)
             {
-                if (m <= 20)
-                {
-                    Console.WriteLine("A");
-                }
-                else if (m >= 10)
-                {
-                    Console.WriteLine("B");
-                }
-                else (m >= 50){
-                    Console.WriteLine("C");
-                }
+                //Console.WriteLine(i);
+                Console.WriteLine(num[i]);
             }
+                
+            
 
         }
 
